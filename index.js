@@ -141,8 +141,8 @@ const unfundedGamesCount = GAMES_JSON.filter(game => game.pledged < game.goal).l
 
 // create a string that explains the number of unfunded games using the ternary operator
 const unfundedGamesMessage = unfundedGamesCount === 1
-    ? `There is 1 unfunded game. We need your help to fund this amazing project!`
-    : `There are ${unfundedGamesCount} unfunded games. We need your help to fund these amazing projects!`;
+    ? `By Iacopo Nohea Lenzi, Z23444625. There is 1 unfunded game. We need your help to fund this amazing project!`
+    : `By Iacopo Nohea Lenzi, Z23444625. There are ${unfundedGamesCount} unfunded games. We need your help to fund these amazing projects!`;
 
 // create a new DOM element containing the template string and append it to the description container
 const unfundedGamesElement = document.createElement("p");
